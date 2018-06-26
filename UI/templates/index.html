@@ -9,23 +9,19 @@
    
 </head>
 <body>
-   
-
-        <!...navigation bar...!>
-        <div class="topnav">
-            <a class="active" href="index.html">Home</a>
-            <a href="index.html">logout</a>
-        </div><hr>
-        <div class="container">
-            <h1>Ride My Way</h1><hr>
-            <div id="welcome">
-                    <p>This is an a car pooling application that provides drivers with the ability to create ride offers and passengers to join available offers. Welcome to the world of simplicity... </p>
-            </div>
-            
-        </div>
-        <!...login form...!>
-
-<form class="content">     
+    <!...navigation bar...!>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="index.html">logout</a>
+    </div><hr>
+    <div class="container">
+        <h1>Ride My Way</h1><hr>
+        <div id="welcome">
+            <p>This is a car pooling application that provides drivers with the ability to create ride offers and passengers to join available offers. Welcome to the world of simplicity... </p>
+        </div>  
+    </div>
+    <!...login form...!>
+    <form class="content">     
             <h2>Login</h2><hr/>
             
             <label for="email"><b>Email</b></label>
@@ -33,43 +29,12 @@
           
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
-   <!...login button directs to either driver.html or passenger.html depending on the choice that was made during registration...!>
+            <!...login button directs to either driver.html or passenger.html depending on the choice that was made during registration...!>
             <a href="Driver.html"><button type="button" class="btn">Login as driver</button></a>
             <a href="Passenger.html"><button type="button" class="btn">Login as passenger</button></a>
-                  
 
-        <p><input type="button" value="Not yet registered? please signup" class="btnn" onclick="document.getElementById('3').scrollIntoView()"></p>
-</form><hr>
-
-<!...signup form...!>
-<form class="content" action="" id="3"></form>
-    <div class="container">
-        <b></b><br>
-        <h2>Signup</h2>
-        <p>To create an account, fill the form below</p>
-
-        <label for="name"><b>Full Name</b></label>
-        <input type="text" placeholder="Enter full name" name="name" required>
-
-        <label for="tel"><b>Tel No.</b></label>
-        <input type="text" placeholder="Enter tel" name="tel" required>
-
-        <label for="email"><b>Email</b></label>
-        <input type="email" placeholder="Enter Email" name="email" required>
-
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-
-        <label for="rpsw"><b>Re-enter Password</b></label>
-        <input type="password" placeholder="Repeat Password" name="rpsw" required>
-
-        <label for="user"><b>User Category</b></label>
-        <input type="radio" name="user" value="driver"/>Driver
-        <input type="radio" name="user" value="passenger"/>passenger<br>
-
-        <button type="button" class="btn">Cancel</button>
-        <button type="submit" class="btn">Sign Up</button>
-    </div>
-</form>
+        <p><a href="signup.html"><button type="button" class="btnn">"Not yet registered? please signup"</button></a>
+        </p>
+    </form>
 </body>
 </html>
