@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>signup</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen">
+   
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="index.html">logout</a>
+    </div>
+    <form class="content" action="" id="3">
+        <div class="container">
+            <b></b><br>
+            <h2>signup</h2>
+            <p>To create an account, fill the fill the form below</p>
+
+            <label for="name"><b>Full Name</b></label>
+            <input type="text" placeholder="Enter full name" name="name" required>
+
+            <label for="tel"><b>Tel No.</b></label>
+            <input type="text" placeholder="Enter tel" name="tel" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label for="rpsw"><b>Re-enter Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="rpsw" required>
+
+            <label for="user"><b>User Category</b></label>
+            <input type="radio" name="user" value="driver"/>Driver
+            <input type="radio" name="user" value="passenger"/>passenger<br>
+
+            <button type="button" class="btn">Cancel</button>
+            <button type="submit" class="btn">Sign Up</button>
+        </div>
+    </form>
+</body>
+</html>
