@@ -14,8 +14,9 @@
             <a href="index.html">logout</a>
         </div>
         <br><br><br>
-        <input class="btn" value="Offer a ride" type="button" onclick="document.getElementById('2').scrollIntoView()">
-        <input class="btn" value="My Profile" type="button" onclick="document.getElementById('1').scrollIntoView()"><br><br>
+        <a href="driverProfile.html"><input class="btn" value="My Profile" type="button"></a>
+        <a href="requests.html"><input class="btn" value="Available Requests" type="button"></a>
+        <br><br>
 
         <!...offer a ride modal...!>
           <form class="content" action="" id="2">
@@ -42,114 +43,17 @@
               <label for="price"><b>Price</b></label>
               <input type="text" placeholder="Enter price" name="price" required>
 
-              <div class="clearfix">
+              
                 <button type="submit" class="btn">Submit</button>
                 <button type="button" class="btn">Cancel</button>
-              </div>
+  
             </div>
           </form>
 
-        <!...driver profile modal...!>
-    
-            <div class="view" id="1">
-             <b></b><br>
-             <b></b><br>
-             <b></b><br>
-              <b>My Profile</b><hr/>
-
-              <div class="card">
-                <br>
-                  <p><b>Number of rides given: </b></p>
-                         <p>88</p>
-                  <hr/>
-
-                </div>
-                <b>My passengers' details</b><hr/>
-                      <div class="card">
-                        <p>Date: 24.5.2018</p>
-                        <p>Full name: Okitoi Noah</p> 
-                        <p>Tel: 0777260758</p> 
-                        <hr/>
-                      </div>
-                    
-                    <div class="card">
-                        <p>Date: 20.5.2018</p>
-                        <p>Full name: Paul Edu</p> 
-                        <p>Tel: 0703673645</p> 
-                        <hr/>
-
-                          </div>
-                    <div class="card">
-                          <p>Date: 12.5.2018</p>
-                          <p>Full name: Shanita Kevin</p> 
-                          <p>Tel: 0703673645</p>
-          
-                          <hr/>
-                    </div>      
-             </div>
 
 
-        <!...view passenger requests...!>
-        <div class="view">
-            View Passenger requests
-            <hr/>
-            <div class="container">
-                <div class="card">
-                    
-                            <h4><b>Passenger request:</b></h4> 
-                            <p>3 minutes ago</p> 
-                            <p> Full name: Okitoi Noah </p> 
-                            <p>Tel: 0703673645</p>
-                      <hr/>
-                      <button>
-                          <i class="fa fa-accept"> Accept</i>
-                      </button>
-                      <button>
-                            <i class="fa fa-reject"> Reject</i>
-                        </button>
-                    </div>
-                </div><br>
-                <div class="card">
-                        <h4><b>Passenger request:</b></h4> 
-                        <p>17 minutes ago</p> 
-                        <p> Full name: Sera Nandawula </p> 
-                        <p>Tel: 0703673645</p>
 
-                      <hr/>
-                      <button>
-                          <i class="fa fa-accept"> Accept</i>
-                      </button>
-                      <button>
-                            <i class="fa fa-reject"> Reject</i>
-                    </button>
-                </div>
-                <div class="card">
-                      <h4><b>Passenger request:</b></h4> 
-                      <p>22 minutes ago</p> 
-                      <p> Full name: Kijja Edwin </p> 
-                      <p>Tel: 0703673645</p>
-                        <hr/>
-                        <button>
-                            <i class="fa fa-accept"> Accept</i>
-                        </button>
-                        <button>
-                                <i class="fa fa-reject"> Reject</i>
-                        </button>
-                </div>
-                <div class="card">
-                        <h4><b>Passenger request:</b></h4> 
-                        <p>28 minutes ago</p> 
-                        <p> Full name: Matovu Allan </p> 
-                        <p>Tel: 0703673645</p>
-                            <hr/>
-                            <button>
-                                <i class="fa fa-accept"> Accept</i>
-                            </button>
-                            <button>
-                                <i class="fa fa-reject"> Reject</i>
-                            </button>
-                </div>
-            </div>
+
 
 </body>
 </html>
